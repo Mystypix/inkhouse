@@ -1,0 +1,27 @@
+{
+  "name": "ink-house",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "tinacms dev -c \"astro dev\"",
+    "start": "astro dev",
+    "build": "tinacms build && astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^6.0.0",
+    "@astrojs/react": "^3.6.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "astro": "5.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tinacms": "^2.1.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.52",
+    "@types/node": "^22.2.0"
+  }
+}
