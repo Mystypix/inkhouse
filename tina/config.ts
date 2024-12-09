@@ -95,9 +95,9 @@ export default defineConfig({
         ],
       },
       {
-        name: "about",
+        name: "aboutUs",
         label: "O nás",
-        path: "content/about",
+        path: "content/aboutUs",
         fields: [
           {
             type: "rich-text",
