@@ -1,9 +1,17 @@
 ---
 import { client } from '../../tina/__generated__/client'
 import Layout from "../layouts/Layout.astro";
+import {TinaMarkdown} from "tinacms/dist/rich-text";
 const data = await client.queries.aboutUs({ relativePath: 'aboutUs.md' })
 ---
 
 <Layout title="InkHouse - O nás">
-
+    <section class="section">
+        <h1>O nás</h1>
+        <TinaMarkdown content={data.data.aboutUs.introText} />
+        <TinaMarkdown content={data.data.aboutUs.address} />
+        <TinaMarkdown content={data.data.aboutUs.searchIntro} />
+        <TinaMarkdown content={data.data.aboutUs.searchInfo} />
+        <TinaMarkdown content={data.data.aboutUs.searchContact} />
+    </section>
 </Layout>

@@ -1,9 +1,16 @@
 ---
 import { client } from '../../tina/__generated__/client'
+import { TinaMarkdown } from 'tinacms/dist/rich-text'
 import Layout from "../layouts/Layout.astro";
 const data = await client.queries.contact({ relativePath: 'contact.md' })
 ---
 
 <Layout title="InkHouse - Kontakt">
-
+    <section>
+        <h1>Kontakt</h1>
+        <div>
+            <a href=`address:${data.data.contact.address}`>{data.data.contact.address}</a>
+            <TinaMarkdown content={data.data.contact.text} />
+        </div>
+    </section>
 </Layout>

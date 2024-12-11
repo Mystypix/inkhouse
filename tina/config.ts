@@ -119,11 +119,6 @@ export default defineConfig({
           },
           {
             type: "rich-text",
-            name: "searchText",
-            label: "Hledáme text",
-          },
-          {
-            type: "rich-text",
             name: "searchContact",
             label: "Hledáme kontakt",
           },

@@ -1,9 +1,22 @@
 ---
 import { client } from '../../tina/__generated__/client'
+import { TinaMarkdown } from 'tinacms/dist/rich-text'
 import Layout from "../layouts/Layout.astro";
 const data = await client.queries.tattoo({ relativePath: 'tattoo.md' })
 ---
 
 <Layout title="InkHouse - Tetování">
-
+    <section>
+        <h1>Tetování</h1>
+        <div>
+            {data.data.tattoo.steps.map(({step, description}) => {
+                return (
+                    <div>
+                        <h2>{step}</h2>
+                        <TinaMarkdown content={description} />
+                    </div>
+                )
+            })}
+        </div>
+    </section>
 </Layout>

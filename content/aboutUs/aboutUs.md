@@ -1,4 +1,5 @@
 ---
+searchText: "Máš zájem o spolupráci? Pošli své portfolio na\_ink\\@inkhouse.cz\_a domluvíme se na podrobnostech.\n"
 introText: >
   Studio Ink House vzniklo v červnu 2021, jako sdílený tetovací ateliér pro
   umělce věnující se různým stylům tetování. Studio tvoří příjemné prostředí
@@ -31,7 +32,8 @@ searchInfo: >
   * Něco sladkého pro tebe a klienty
 
   * Krásné nové prostory
-searchText: "Máš zájem o spolupráci? Pošli své portfolio na\_ink\\@inkhouse.cz\_a domluvíme se na podrobnostech.\n"
-searchContact: ''
+searchContact: >
+  Máš zájem o spolupráci? Pošli své portfolio na
+  [ink@inkhouse.cz](mailto:ink@inkhouse.cz) a domluvíme se na podrobnostech.
 ---
 
