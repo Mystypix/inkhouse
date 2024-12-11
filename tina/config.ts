@@ -34,12 +34,6 @@ export default defineConfig({
         path: "content/homepage",
         fields: [
           {
-            type: "rich-text",
-            name: "introText",
-            label: "Úvodní text",
-            required: true,
-          },
-          {
             label: "Tatérky",
             name: "tattooers",
             type: "object",
@@ -68,12 +62,6 @@ export default defineConfig({
                 type: "rich-text",
                 name: "text",
                 label: "Popis",
-                required: true,
-              },
-              {
-                type: "string",
-                name: "email",
-                label: "Email",
                 required: true,
               },
               {
