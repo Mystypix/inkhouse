@@ -1,0 +1,9 @@
+---
+import { client } from '../../tina/__generated__/client'
+import Layout from "../layouts/Layout.astro";
+const data = await client.queries.tattoo({ relativePath: 'tattoo.md' })
+---
+
+<Layout title="InkHouse - Tetování">
+
+</Layout>

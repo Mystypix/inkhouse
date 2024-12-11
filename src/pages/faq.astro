@@ -1,0 +1,9 @@
+---
+import { client } from '../../tina/__generated__/client'
+import Layout from "../layouts/Layout.astro";
+const data = await client.queries.faq({ relativePath: 'faq.md' })
+---
+
+<Layout title="InkHouse - FAQ">
+
+</Layout>

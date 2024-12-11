@@ -40,42 +40,158 @@ export default defineConfig({
             required: true,
           },
           {
-            type: "rich-text",
-            name: "aboutText",
-            label: "Text o mně",
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "reservationText",
-            label: "Text o rezervaci",
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "pricingText",
-            label: "Text o cenách",
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "photoText",
-            label: "Text o fotografování",
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "paintingText",
-            label: "Text o malování",
-            required: true,
-          },
-          {
-            label: "FAQ",
-            name: "faq",
+            label: "Tatérky",
+            name: "tattooers",
             type: "object",
             list: true,
             ui: {
               component: "group-list",
+              itemProps: (item) => {
+                // Field values are accessed by item?.<Field name>
+                return { label: item?.name };
+              },
+            },
+            fields: [
+              {
+                label: 'Fotka',
+                name: 'photo',
+                type: 'image',
+                required: true,
+              },
+              {
+                type: "string",
+                name: "name",
+                label: "Jméno",
+                required: true,
+              },
+              {
+                type: "rich-text",
+                name: "text",
+                label: "Popis",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "email",
+                label: "Email",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "instagram",
+                label: "Instagram",
+              },
+              {
+                type: "string",
+                name: "facebook",
+                label: "Facebook",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "aboutUs",
+        label: "O nás",
+        path: "content/aboutUs",
+        fields: [
+          {
+            type: "rich-text",
+            name: "introText",
+            label: "Úvodní text",
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "address",
+            label: "Adresa",
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "searchIntro",
+            label: "Hledáme text",
+          },
+          {
+            type: "rich-text",
+            name: "searchInfo",
+            label: "Hledáme informace",
+          },
+          {
+            type: "rich-text",
+            name: "searchText",
+            label: "Hledáme text",
+          },
+          {
+            type: "rich-text",
+            name: "searchContact",
+            label: "Hledáme kontakt",
+          },
+        ],
+      },
+      {
+        name: "tattoo",
+        label: "Tetování",
+        path: "content/tattoo",
+        fields: [
+          {
+            label: "Kroky",
+            name: "steps",
+            type: "object",
+            list: true,
+            ui: {
+              component: "group-list",
+              itemProps: (item) => {
+                // Field values are accessed by item?.<Field name>
+                return { label: item?.step };
+              },
+            },
+            fields: [
+              {
+                type: "string",
+                name: "step",
+                label: "Krok",
+                required: true,
+              },
+              {
+                type: "rich-text",
+                name: "description",
+                label: "Text",
+                required: true,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "pricing",
+        label: "Ceník",
+        path: "content/pricing",
+        fields: [
+          {
+            type: "rich-text",
+            name: "text",
+            label: "Text",
+            required: true,
+          },
+        ],
+      },
+      {
+        name: "faq",
+        label: "FAQ",
+        path: "content/faq",
+        fields: [
+          {
+            label: "Položky",
+            name: "items",
+            type: "object",
+            list: true,
+            ui: {
+              component: "group-list",
+              itemProps: (item) => {
+                // Field values are accessed by item?.<Field name>
+                return { label: item?.question };
+              },
             },
             fields: [
               {
@@ -95,35 +211,21 @@ export default defineConfig({
         ],
       },
       {
-        name: "aboutUs",
-        label: "O nás",
-        path: "content/aboutUs",
-        fields: [
-          {
-            type: "rich-text",
-            name: "introText",
-            label: "Úvodní text",
-            required: true,
-          },
-        ],
-      },
-      {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "contact",
+        label: "Kontakt",
+        path: "content/contact",
         fields: [
           {
             type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
+            name: "address",
+            label: "Adresa",
             required: true,
           },
           {
             type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
+            name: "text",
+            label: "Text",
+            required: true,
           },
         ],
       },

@@ -2,12 +2,27 @@
 import { client } from '../../tina/__generated__/client'
 import { TinaMarkdown } from 'tinacms/dist/rich-text'
 import Layout from "../layouts/Layout.astro"
-import FileLink from '../components/FileLink.astro'
 
 const data = await client.queries.homepage({ relativePath: 'homepage.md' })
 ---
 
 <Layout title="InkHouse - Tetování Praha">
+	<section class="intro">
+		<div class="introBg"></div>
+	</section>
+	<section class="tattooers">
+		{data.data.homepage.tattooers.map((tattooer) => (
+			<div class="tattooer">
+				<div class="tattooerImageWrapper">
+					<img class="tattooerImage" src={tattooer.photo} alt={tattooer.name} />
+				</div>
+				<div class="tattooerInfo">
+					<h2 class="tattooerName">{tattooer.name}</h2>
+					<TinaMarkdown content={tattooer.text} />
+				</div>
+			</div>
+		))}
+	</section>
 	<!--<section class="section section&#45;&#45;intro">-->
 	<!--	<div class="introText">-->
 	<!--		<TinaMarkdown content={data.data.homepage.introText} />-->
@@ -111,7 +126,60 @@ const data = await client.queries.homepage({ relativePath: 'homepage.md' })
 	<!--</section>-->
 </Layout>
 <style>
-
+	.intro {
+		position: relative;
+		height: 100vh;
+		width: 100%;
+		z-index: -1;
+	}
+	.introBg {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url('/intro-bg.jpeg') no-repeat center center;
+		background-size: cover;
+	}
+	.tattooers {
+		background: white;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+		padding: 60px 30px;
+	}
+	.tattooer {
+		position: relative;
+		height: 400px;
+		overflow: hidden;
+		&:hover {
+			.tattooerInfo {
+				overflow: auto;
+				transform: translateY(-100%);
+			}
+		}
+	}
+	.tattooerImage {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.tattooerInfo {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		padding: 10px 20px;
+		width: 100%;
+		height: 100%;
+		transform: translateY(-50px);
+		background: rgba(79, 224, 207, 0.6);
+		transition: transform .25s;
+	}
+	.tattooerName {
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
 </style>
 <!--<script client:only type="module">-->
 <!--	document.addEventListener('DOMContentLoaded', () => {-->

@@ -1,0 +1,9 @@
+---
+import { client } from '../../tina/__generated__/client'
+import Layout from "../layouts/Layout.astro";
+const data = await client.queries.contact({ relativePath: 'contact.md' })
+---
+
+<Layout title="InkHouse - Kontakt">
+
+</Layout>
