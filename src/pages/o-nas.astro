@@ -7,11 +7,14 @@ const data = await client.queries.aboutUs({ relativePath: 'aboutUs.md' })
 
 <Layout title="InkHouse - O nás">
     <section class="section">
-        <h1>O nás</h1>
-        <TinaMarkdown content={data.data.aboutUs.introText} />
-        <TinaMarkdown content={data.data.aboutUs.address} />
-        <TinaMarkdown content={data.data.aboutUs.searchIntro} />
-        <TinaMarkdown content={data.data.aboutUs.searchInfo} />
-        <TinaMarkdown content={data.data.aboutUs.searchContact} />
+        <div class="content">
+            <h1 class="title">O nás</h1>
+            <TinaMarkdown content={data.data.aboutUs.introText} />
+            <TinaMarkdown content={data.data.aboutUs.address} />
+            <TinaMarkdown content={data.data.aboutUs.searchIntro} />
+            <TinaMarkdown content={data.data.aboutUs.searchInfo} />
+            <TinaMarkdown content={data.data.aboutUs.searchContact} />
+        </div>
+        <img class="contentBg" src="/about-bg.jpeg" />
     </section>
 </Layout>

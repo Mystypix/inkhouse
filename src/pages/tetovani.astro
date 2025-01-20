@@ -6,17 +6,18 @@ const data = await client.queries.tattoo({ relativePath: 'tattoo.md' })
 ---
 
 <Layout title="InkHouse - Tetování">
-    <section>
-        <h1>Tetování</h1>
-        <div>
+    <section class="section">
+        <div class="content">
+            <h1 class="title">Tetování</h1>
             {data.data.tattoo.steps.map(({step, description}) => {
                 return (
                     <div>
-                        <h2>{step}</h2>
+                        <h2 class="paragraphTitle">{step}</h2>
                         <TinaMarkdown content={description} />
                     </div>
                 )
             })}
         </div>
+        <img class="contentBg" src="/tattoo-bg.jpeg" />
     </section>
 </Layout>

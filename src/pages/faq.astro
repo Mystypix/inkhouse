@@ -5,5 +5,19 @@ const data = await client.queries.faq({ relativePath: 'faq.md' })
 ---
 
 <Layout title="InkHouse - FAQ">
-
+    <section class="section">
+        <div class="content">
+            <h1 class="title">FAQ</h1>
+            <div>
+                {data.data.faq.questions.map(({question, answer}) => {
+                    return (
+                        <div>
+                            <h2>{question}</h2>
+                            <p>{answer}</p>
+                        </div>
+                    )
+                })}
+            </div>
+        </div>
+    </section>
 </Layout>
