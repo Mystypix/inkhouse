@@ -9,7 +9,7 @@ introText: >
   komunikace, až po finální výsledek tak, abyste odcházeli s krásnou ozdobou na
   své kůži, která tě bude provázet celý život.
 address: |
-  Najdeš nás na adrese Zenklova 162/220, Praha 8.
+  Najdeš nás na adrese **Zenklova 162/220, Praha 8**.
 searchIntro: |
   Hledáme kolegy do studia
   Máš certifikát na tetování a hotový živnostenský list?

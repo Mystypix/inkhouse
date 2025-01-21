@@ -1,7 +1,8 @@
 ---
 introText: ''
 tattooers:
-  - photo: /sarka-01.jpg
+  - photoIntro: /sarka-01.jpg
+    photoDetail: /sarka-02.jpg
     name: Šárka
     text: >
       Seznamte se s Šárkou - zakladatelkou studia Ink House a tatérkou s vášní
@@ -28,7 +29,8 @@ tattooers:
       osobním přístupem vám pomůže proměnit váš nápad v tetování, které si
       zamilujete!
     instagram: 'https://www.instagram.com/sarka.ink/'
-  - photo: /natalie-01.jpg
+  - photoIntro: /natalie-01.jpg
+    photoDetail: /natalie-02.jpg
     name: Natálie
     text: >
       Představujeme Vám Natálii, která se k nám připojila v roce 2022, a jsme
@@ -47,7 +49,8 @@ tattooers:
       Pokud máte chuť na jemné, elegantní tetování s hlubokým duchovním
       nádechem, Natálie je tu pro vás!
     instagram: 'https://www.instagram.com/tallitatts/'
-  - photo: /jana-03.jpg
+  - photoIntro: /jana-03.jpg
+    photoDetail: /jana-02.jpg
     name: Jana
     text: >
       Představujeme vám Janu, která se k nám v roce 2022 přidala a přináší do
@@ -64,7 +67,8 @@ tattooers:
       Pokud hledáte tetování s jemnými detaily, barevným nádechem a osobitým
       stylem, Jana v Ink House je tu právě pro vás!
     instagram: 'https://www.instagram.com/jana_slusarcikova_ink/'
-  - photo: /karin-01.jpg
+  - photoIntro: /karin-01.jpg
+    photoDetail: /karin-02.jpg
     name: Karin
     text: >
       Seznamte se s Karin - tatérkou s vášní pro cestování, zvířata a
@@ -83,7 +87,8 @@ tattooers:
       ve správných rukou. Přijďte za ní do Ink House a proměňte svůj nápad v
       nezapomenutelný zážitek!
     instagram: 'https://www.instagram.com/_varholy_/'
-  - photo: /veronika-01.jpg
+  - photoIntro: /veronika-01.jpg
+    photoDetail: /veronika-02.jpg
     name: Veronika
     text: >
       Představujeme vám Veroniku - talentovanou tatérku, která se k nám
@@ -107,7 +112,8 @@ tattooers:
       každého, kdo hledá jemné, originální tetování. Podpořte naši novou tatérku
       a sledujte její profil pro inspiraci i novinky!
     instagram: 'https://www.instagram.com/vbaron.tattoo/'
-  - photo: /monika-01.jpg
+  - photoIntro: /monika-01.jpg
+    photoDetail: /monika-02.jpg
     name: Monika
     text: >
       Seznamte se s Monikou - tatérkou, která se k nám přestěhovala ze Slovenska
@@ -133,7 +139,8 @@ tattooers:
       je tu právě pro vás. Ať už temné motivy nebo čisté linie - Monika zvládne
       všechno s nadšením a talentem.
     instagram: 'https://www.instagram.com/monane_tattoo/'
-  - photo: /michaela-01.jpg
+  - photoIntro: /michaela-01.jpg
+    photoDetail: /michaela-02.jpg
     name: Michaela
     text: >
       Poznej Michaelu - tatérku s vášní pro barvy a jedinečné styly, která svou
@@ -153,8 +160,9 @@ tattooers:
       tetování, které kombinuje odvážné barvy a nezaměnitelný styl, Michaela je
       připravena vám pomoci vytvořit něco skutečně výjimečného.
     instagram: 'https://www.instagram.com/dowey_ink/'
-  - photo: /jana-01.jpg
-    name: Jana
+  - photoIntro: /jana-01.jpg
+    photoDetail: /jana-s-02.jpg
+    name: JanaS
     text: >
       Seznam se s Janou, talentovanou tatérku, která je mistryní jemných i
       silnějších linií a její návrhy jsou vždy originální. Jana se k nám

@@ -10,7 +10,7 @@ const tattooer = data.data.homepage.tattooers?.find((tattooer) => slug === tatto
 
 <Layout title={`InkHouse - ${tattooer.name}`}>
     <section class="section">
-        <img class="contentBg" src={tattooer.photo} alt={tattooer.name} />
+        <img class="contentBg" src={tattooer.photoDetail} alt={tattooer.name} />
         <div class="content">
             <h1 class="title">{tattooer.name}</h1>
             <TinaMarkdown content={tattooer.text} />

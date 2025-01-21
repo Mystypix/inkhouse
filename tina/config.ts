@@ -47,8 +47,14 @@ export default defineConfig({
             },
             fields: [
               {
-                label: 'Fotka',
-                name: 'photo',
+                label: 'Fotka úvod',
+                name: 'photoIntro',
+                type: 'image',
+                required: true,
+              },
+              {
+                label: 'Fotka detail',
+                name: 'photoDetail',
                 type: 'image',
                 required: true,
               },
