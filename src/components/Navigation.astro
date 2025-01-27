@@ -1,13 +1,18 @@
+---
+    const pathname = new URL(Astro.request.url).pathname; 
+    const currentPath = pathname.slice(1);
+---
+
 <nav class="nav">
     <a class="logo" href="/"><img alt="Logo" class="logoImg" src="/logo.png" /></a>
     <div class="toggleMenu">
         <input id="hamburgerInput" type="checkbox" />
         <div class="hamburger"></div>
         <div class="navLinks">
-            <a class="navLink" href="/o-nas">O nás</a>
-            <a class="navLink" href="/tetovani">Tetování</a>
-            <a class="navLink" href="/faq">FAQ</a>
-            <a class="navLink" href="/kontakt">Kontakt</a>
+            <a class={currentPath === "o-nas" ? "navLink active" : "navLink"} href="/o-nas">O nás</a>
+            <a class={currentPath === "tetovani" ? "navLink active" : "navLink"} href="/tetovani">Tetování</a>
+            <a class={currentPath === "faq" ? "navLink active" : "navLink"} href="/faq">FAQ</a>
+            <a class={currentPath === "kontakt" ? "navLink active" : "navLink"} href="/kontakt">Kontakt</a>
         </div>
     </div>
 </nav>
@@ -202,57 +207,3 @@
         }
     }
 </style>
-<script>
-    function addClassOnScroll() {
-        const nav = document.querySelector('nav');
-        const scrollThreshold = 10;
-
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > scrollThreshold) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-    }
-
-    addClassOnScroll();
-
-    document.addEventListener('DOMContentLoaded', () => {
-        const navItems = document.querySelectorAll('.navLink'); // Adjust the selector as needed
-        const sections = document.querySelectorAll('.sectionAnchor'); // Adjust the selector as needed
-
-        function onScroll() {
-            let currentSection = '';
-
-            sections.forEach(section => {
-                const sectionTop = (section as HTMLElement).offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (pageYOffset >= sectionTop - sectionHeight / 3) {
-                    currentSection = section.getAttribute('id');
-                }
-            });
-
-            navItems.forEach(item => {
-                item.classList.remove('active');
-                if (item.getAttribute('href').substring(1) === currentSection) {
-                    item.classList.add('active');
-                }
-            });
-        }
-
-        window.addEventListener('scroll', onScroll);
-
-        function setHamburgerChecked() {
-            if (window.innerWidth < 980) {
-                const hamburgerInput = document.getElementById('hamburgerInput');
-                if (hamburgerInput) {
-                    (hamburgerInput as HTMLInputElement).checked = false;                }
-            }
-        }
-
-        navItems.forEach(item => {
-            item.addEventListener('click', setHamburgerChecked);
-        });
-    });
-</script>

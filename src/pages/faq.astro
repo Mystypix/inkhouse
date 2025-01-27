@@ -1,4 +1,5 @@
 ---
+import { TinaMarkdown } from 'tinacms/dist/rich-text'
 import { client } from '../../tina/__generated__/client'
 import Layout from "../layouts/Layout.astro";
 const data = await client.queries.faq({ relativePath: 'faq.md' })
@@ -9,15 +10,16 @@ const data = await client.queries.faq({ relativePath: 'faq.md' })
         <div class="content">
             <h1 class="title">FAQ</h1>
             <div>
-                {data.data.faq.questions.map(({question, answer}) => {
+                {data.data.faq.items.map(({question, answer}) => {
                     return (
                         <div>
-                            <h2>{question}</h2>
-                            <p>{answer}</p>
+                            <h2 class="paragraphTitle">{question}</h2>
+                            <TinaMarkdown content={answer} />
                         </div>
                     )
                 })}
             </div>
         </div>
+        <img class="contentBg" src="/faq-bg.jpeg" />
     </section>
 </Layout>

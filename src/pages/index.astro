@@ -1,6 +1,5 @@
 ---
 import { client } from '../../tina/__generated__/client'
-import { TinaMarkdown } from 'tinacms/dist/rich-text'
 import Layout from "../layouts/Layout.astro"
 
 const data = await client.queries.homepage({ relativePath: 'homepage.md' })
