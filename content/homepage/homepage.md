@@ -51,7 +51,7 @@ tattooers:
     instagram: 'https://www.instagram.com/tallitatts/'
   - photoIntro: /jana-03.jpg
     photoDetail: /jana-02.jpg
-    name: Jana
+    name: Jana S.
     text: >
       Představujeme vám Janu, která se k nám v roce 2022 přidala a přináší do
       Ink House lásku k detailu a vášně pro mikrorealismus.
@@ -162,7 +162,7 @@ tattooers:
     instagram: 'https://www.instagram.com/dowey_ink/'
   - photoIntro: /jana-01.jpg
     photoDetail: /jana-s-02.jpg
-    name: JanaS
+    name: Jana
     text: >
       Seznam se s Janou, talentovanou tatérku, která je mistryní jemných i
       silnějších linií a její návrhy jsou vždy originální. Jana se k nám
