@@ -59,6 +59,23 @@ export default defineConfig({
                 required: true,
               },
               {
+                label: "Portfolio",
+                name: "portfolio",
+                type: "object",
+                list: true,
+                ui: {
+                  component: "group-list",
+                },
+                fields: [
+                  {
+                    label: 'Fotka',
+                    name: 'portforlioPhoto',
+                    type: 'image',
+                    required: true,
+                  },
+                ],
+              },
+              {
                 type: "string",
                 name: "name",
                 label: "Jméno",
@@ -74,6 +91,11 @@ export default defineConfig({
                 type: "string",
                 name: "instagram",
                 label: "Instagram",
+              },
+              {
+                type: "string",
+                name: "email",
+                label: "Email",
               },
               {
                 type: "string",

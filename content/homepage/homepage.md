@@ -3,6 +3,17 @@ introText: ''
 tattooers:
   - photoIntro: /sarka-01.jpg
     photoDetail: /sarka-02.jpg
+    portfolio:
+      - portforlioPhoto: /sarka/0D2C7FF0-237B-45E5-AE3E-CA6579CB0D2E_1_105_c.jpeg
+      - portforlioPhoto: /sarka/239D28A9-0908-4857-A18A-DE97BE1616B9_1_105_c.jpeg
+      - portforlioPhoto: /sarka/402E298A-6455-4073-9B8A-DA5F9DE76D59_1_105_c.jpeg
+      - portforlioPhoto: /sarka/697FAD65-A0C0-4186-89C1-C0548C07FF1D_1_105_c.jpeg
+      - portforlioPhoto: /sarka/73055BCC-8910-445B-AC97-88E3075C81BB_1_105_c.jpeg
+      - portforlioPhoto: /sarka/745CA63E-172F-4AE0-88CD-4C46B4B343C2_1_105_c.jpeg
+      - portforlioPhoto: /sarka/8D6C678B-DB4A-417A-87A9-F048DF92DD4D_1_105_c.jpeg
+      - portforlioPhoto: /sarka/AC494EAD-DA32-498C-8049-F23CB34D8B40_1_105_c.jpeg
+      - portforlioPhoto: /sarka/ADF09F11-E819-4697-AD6C-300327B3C879_1_105_c.jpeg
+      - portforlioPhoto: /sarka/B5FCD6E9-1720-4981-930C-ECCF6DB8EC75_1_105_c.jpeg
     name: Šárka
     text: >
       Seznamte se s Šárkou - zakladatelkou studia Ink House a tatérkou s vášní
@@ -29,8 +40,18 @@ tattooers:
       osobním přístupem vám pomůže proměnit váš nápad v tetování, které si
       zamilujete!
     instagram: 'https://www.instagram.com/sarka.ink/'
+    email: sarka.sskv@gmail.com
   - photoIntro: /natalie-01.jpg
     photoDetail: /natalie-02.jpg
+    portfolio:
+      - portforlioPhoto: /natalie/DSCF7979.jpeg
+      - portforlioPhoto: /natalie/DSCF7846.jpeg
+      - portforlioPhoto: /natalie/DSCF7724.jpeg
+      - portforlioPhoto: /natalie/DSCF7430.jpeg
+      - portforlioPhoto: /natalie/DSCF7420.jpeg
+      - portforlioPhoto: /natalie/DSCF7143.jpeg
+      - portforlioPhoto: /natalie/DSCF5836.jpeg
+      - portforlioPhoto: /natalie/DSCF4959.jpeg
     name: Natálie
     text: >
       Představujeme Vám Natálii, která se k nám připojila v roce 2022, a jsme
@@ -49,8 +70,20 @@ tattooers:
       Pokud máte chuť na jemné, elegantní tetování s hlubokým duchovním
       nádechem, Natálie je tu pro vás!
     instagram: 'https://www.instagram.com/tallitatts/'
+    email: nathalieyessina@gmail.com
   - photoIntro: /jana-03.jpg
     photoDetail: /jana-02.jpg
+    portfolio:
+      - portforlioPhoto: /jana-s/IMG_9526.jpeg
+      - portforlioPhoto: /jana-s/IMG_9317.jpeg
+      - portforlioPhoto: /jana-s/IMG_7734.jpeg
+      - portforlioPhoto: /jana-s/IMG_6478.jpeg
+      - portforlioPhoto: /jana-s/IMG_6004.jpeg
+      - portforlioPhoto: /jana-s/IMG_4120.jpeg
+      - portforlioPhoto: /jana-s/IMG_2693.jpeg
+      - portforlioPhoto: /jana-s/IMG_2404.jpeg
+      - portforlioPhoto: /jana-s/IMG_1216.jpeg
+      - portforlioPhoto: /jana-s/IMG_0913.jpeg
     name: Jana S.
     text: >
       Představujeme vám Janu, která se k nám v roce 2022 přidala a přináší do
@@ -67,8 +100,20 @@ tattooers:
       Pokud hledáte tetování s jemnými detaily, barevným nádechem a osobitým
       stylem, Jana v Ink House je tu právě pro vás!
     instagram: 'https://www.instagram.com/jana_slusarcikova_ink/'
+    email: jslusarcikova@gmail.com
   - photoIntro: /karin-01.jpg
     photoDetail: /karin-02.jpg
+    portfolio:
+      - portforlioPhoto: /karin/7FEF9189-2EA8-43A1-8DDF-8F7CABC5CDE1.jpeg
+      - portforlioPhoto: /karin/IMG_0626.jpeg
+      - portforlioPhoto: /karin/IMG_1424_jpg.jpeg
+      - portforlioPhoto: /karin/IMG_1810_jpg.jpeg
+      - portforlioPhoto: /karin/IMG_4790_jpg.jpeg
+      - portforlioPhoto: /karin/IMG_4855_jpg.jpeg
+      - portforlioPhoto: /karin/IMG_4916.jpeg
+      - portforlioPhoto: /karin/IMG_5451_jpg.jpeg
+      - portforlioPhoto: /karin/IMG_6298.jpeg
+      - portforlioPhoto: /karin/IMG_9145.jpeg
     name: Karin
     text: >
       Seznamte se s Karin - tatérkou s vášní pro cestování, zvířata a
@@ -87,6 +132,7 @@ tattooers:
       ve správných rukou. Přijďte za ní do Ink House a proměňte svůj nápad v
       nezapomenutelný zážitek!
     instagram: 'https://www.instagram.com/_varholy_/'
+    email: karinwarholyova@gmail.com
   - photoIntro: /veronika-01.jpg
     photoDetail: /veronika-02.jpg
     name: Veronika
@@ -112,6 +158,7 @@ tattooers:
       každého, kdo hledá jemné, originální tetování. Podpořte naši novou tatérku
       a sledujte její profil pro inspiraci i novinky!
     instagram: 'https://www.instagram.com/vbaron.tattoo/'
+    email: vercabaronova@seznam.cz
   - photoIntro: /monika-01.jpg
     photoDetail: /monika-02.jpg
     name: Monika
@@ -139,6 +186,7 @@ tattooers:
       je tu právě pro vás. Ať už temné motivy nebo čisté linie - Monika zvládne
       všechno s nadšením a talentem.
     instagram: 'https://www.instagram.com/monane_tattoo/'
+    email: monika.neuschl@gmail.com
   - photoIntro: /michaela-01.jpg
     photoDetail: /michaela-02.jpg
     name: Michaela
@@ -160,6 +208,7 @@ tattooers:
       tetování, které kombinuje odvážné barvy a nezaměnitelný styl, Michaela je
       připravena vám pomoci vytvořit něco skutečně výjimečného.
     instagram: 'https://www.instagram.com/dowey_ink/'
+    email: dovjakovamichaela@gmail.com
   - photoIntro: /jana-01.jpg
     photoDetail: /jana-s-02.jpg
     name: Jana
@@ -186,5 +235,13 @@ tattooers:
       Pokud toužíte po tetování, které bude nejen odrazem vaší osobnosti, ale i
       opravdovým uměleckým kouskem, Jana je tou pravou tatérkou pro vás!
     instagram: 'https://www.instagram.com/ink.art.by.jana/'
+    email: janicka.kaminska@gmail.com
+  - photoIntro: /628285_avatar_blond_female_girl_person_icon.png
+    photoDetail: /628285_avatar_blond_female_girl_person_icon.png
+    name: Bára
+    text: |
+      TBD
+    instagram: 'https://www.instagram.com/vili.ink/'
+    email: bara.theissig@gmail.com
 ---
 
