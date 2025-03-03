@@ -145,3 +145,58 @@ const { title } = Astro.props;
         }
     }
 </style>
+<script client:only>
+    function acceptCookies(trackingId) {
+        document.cookie = `tracking_consent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', trackingId, 'auto');
+        ga('send', 'pageview');
+
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '617991520992270');
+        fbq('track', 'PageView');
+
+        document.querySelector('.cookie-banner').remove();
+    }
+
+    function declineCookies() {
+        document.cookie = `tracking_consent=false; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
+        document.querySelector('.cookie-banner').remove();
+    }
+
+    function createCookieConsentBanner(trackingId) {
+        if (document.cookie.split(';').some((item) => item.trim().startsWith('tracking_consent='))) {
+            return;
+        }
+
+        const banner = document.createElement('div');
+        banner.innerHTML = `
+            <div class="cookie-banner">
+                <p><strong>Používáme cookies 🍪</strong></p>
+                <p>
+                    Naše webové stránky používají cookies k analýze návštěvnosti pomocí Google Analytics a ke sledování konverzí pomocí Meta Pixels. Pokračováním v používání našich stránek souhlasíte s naším používáním cookies.
+                </p>    
+                <div class="cookie-banner-buttons">  
+                    <button class="cookie-banner-accept" onclick="acceptCookies('G-CM4ZFXDT8X')">Souhlasím</button>
+                    <button class="cookie-banner-decline" onclick="declineCookies()">Odmítnout</button>
+                </div>
+            </div>
+        `;
+
+        document.body.appendChild(banner);
+    }
+
+    createCookieConsentBanner();
+</script>
