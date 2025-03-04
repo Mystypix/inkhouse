@@ -135,6 +135,17 @@ tattooers:
     email: karinwarholyova@gmail.com
   - photoIntro: /veronika-01.jpg
     photoDetail: /veronika-02.jpg
+    portfolio:
+      - portforlioPhoto: /veronika/IMG_9060.jpeg
+      - portforlioPhoto: /veronika/IMG_6985.jpeg
+      - portforlioPhoto: /veronika/IMG_6975.jpeg
+      - portforlioPhoto: /veronika/IMG_5743.jpeg
+      - portforlioPhoto: /veronika/IMG_4961.jpeg
+      - portforlioPhoto: /veronika/IMG_4835.jpeg
+      - portforlioPhoto: /veronika/IMG_4828.jpeg
+      - portforlioPhoto: /veronika/IMG_4594.jpeg
+      - portforlioPhoto: /veronika/IMG_3816.jpeg
+      - portforlioPhoto: /veronika/IMG_0406.jpeg
     name: Veronika
     text: >
       Představujeme vám Veroniku - talentovanou tatérku, která se k nám
@@ -161,6 +172,17 @@ tattooers:
     email: vercabaronova@seznam.cz
   - photoIntro: /monika-01.jpg
     photoDetail: /monika-02.jpg
+    portfolio:
+      - portforlioPhoto: /monika/IMG_1574.JPG
+      - portforlioPhoto: /monika/IMG_1491_jpg.jpg
+      - portforlioPhoto: /monika/IMG_1476_jpg.JPG
+      - portforlioPhoto: /monika/IMG_1308_jpg.JPG
+      - portforlioPhoto: /monika/IMG_1258_jpg.JPG
+      - portforlioPhoto: /monika/IMG_1151_jpg.JPG
+      - portforlioPhoto: /monika/IMG_1117_jpg.JPG
+      - portforlioPhoto: /monika/IMG_0700_jpg.JPG
+      - portforlioPhoto: /monika/IMG_0573_jpg.JPG
+      - portforlioPhoto: /monika/IMG_0530_jpg.JPG
     name: Monika
     text: >
       Seznamte se s Monikou - tatérkou, která se k nám přestěhovala ze Slovenska
@@ -189,6 +211,17 @@ tattooers:
     email: monika.neuschl@gmail.com
   - photoIntro: /michaela-01.jpg
     photoDetail: /michaela-02.jpg
+    portfolio:
+      - portforlioPhoto: /michaela/Tetova╠üni╠ü noha .JPG
+      - portforlioPhoto: /michaela/Ruka .JPG
+      - portforlioPhoto: /michaela/Pta╠üc╠îek .jpg
+      - portforlioPhoto: /michaela/Pi╠üsmeno .JPG
+      - portforlioPhoto: /michaela/Napis 2 .JPG
+      - portforlioPhoto: /michaela/Napis 1 .JPG
+      - portforlioPhoto: /michaela/Kolo .JPG
+      - portforlioPhoto: /michaela/Draci .JPG
+      - portforlioPhoto: /michaela/C╠îara .JPG
+      - portforlioPhoto: /michaela/Chmel .jpg
     name: Michaela
     text: >
       Poznej Michaelu - tatérku s vášní pro barvy a jedinečné styly, která svou
@@ -211,6 +244,17 @@ tattooers:
     email: dovjakovamichaela@gmail.com
   - photoIntro: /jana-01.jpg
     photoDetail: /jana-s-02.jpg
+    portfolio:
+      - portforlioPhoto: /jana/IMG_7189.jpeg
+      - portforlioPhoto: /jana/IMG_6165.jpeg
+      - portforlioPhoto: /jana/IMG_5564.jpeg
+      - portforlioPhoto: /jana/IMG_5564.jpeg
+      - portforlioPhoto: /jana/IMG_5514.jpeg
+      - portforlioPhoto: /jana/IMG_4913.jpeg
+      - portforlioPhoto: /jana/IMG_4440.jpeg
+      - portforlioPhoto: /jana/IMG_3385.jpeg
+      - portforlioPhoto: /jana/IMG_2996_jpg.jpeg
+      - portforlioPhoto: /jana/IMG_1350.jpeg
     name: Jana
     text: >
       Seznam se s Janou, talentovanou tatérku, která je mistryní jemných i
@@ -236,8 +280,8 @@ tattooers:
       opravdovým uměleckým kouskem, Jana je tou pravou tatérkou pro vás!
     instagram: 'https://www.instagram.com/ink.art.by.jana/'
     email: janicka.kaminska@gmail.com
-  - photoIntro: /628285_avatar_blond_female_girl_person_icon.png
-    photoDetail: /628285_avatar_blond_female_girl_person_icon.png
+  - photoIntro: /628287_anonym_avatar_default_head_person_icon.svg
+    photoDetail: /628287_anonym_avatar_default_head_person_icon.svg
     name: Bára
     text: |
       TBD
