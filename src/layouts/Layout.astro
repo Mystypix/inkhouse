@@ -25,7 +25,7 @@ const { title } = Astro.props;
         <Navigation />
         <slot />
         <footer>
-            <p>InkHouse &copy; 2024</p>
+            <p>InkHouse &copy; {new Date().getFullYear()}</p>
         </footer>
     </body>
 </html>
