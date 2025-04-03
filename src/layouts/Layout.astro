@@ -191,7 +191,7 @@ const { title } = Astro.props;
         }
     }
 </style>
-<script client:only>
+<script is:inline>
     function acceptCookies(trackingId) {
         document.cookie = `tracking_consent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
 
