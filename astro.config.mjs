@@ -9,4 +9,7 @@ export default defineConfig({
   integrations: [react(), partytown({ config: { forward: ['dataLayer.push'] } })],
   output: 'server',
   adapter: netlify(),
+  client: {
+    module: 'esm'
+  }
 });
