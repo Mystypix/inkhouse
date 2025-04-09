@@ -191,27 +191,30 @@ const { title } = Astro.props;
         }
     }
 </style>
-<!-- <script client:only>
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-CM4ZFXDT8X" />
+<script is:inline>
     function acceptCookies() {
       console.log('Accept button clicked');
       document.cookie = `tracking_consent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({ event: 'consent_given' });
       
-      // Initialize tracking
       initializeTracking();
-      hideBanner(); // Call hideBanner immediately
+      hideBanner();
     }
     
     function declineCookies() {
       console.log('Decline button clicked');
       document.cookie = `tracking_consent=false; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
-      hideBanner(); // Call hideBanner immediately
+      hideBanner();
     }
     
     function initializeTracking() {
-      console.log('Initializing tracking...');
-      // GTM initialization code here
+        console.log('Initializing tracking...');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CM4ZFXDT8X');
     }
     
     function hideBanner() {
@@ -254,14 +257,4 @@ const { title } = Astro.props;
       console.log('Page loaded, checking consent...');
       createCookieConsentBanner();
     });
-    </script> -->
-    <!-- Google tag (gtag.js) -->
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="f141981b-fa1a-4883-b498-448a0624c161" type="text/javascript" async></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CM4ZFXDT8X"></script>
-<script is:inline>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CM4ZFXDT8X');
 </script>
