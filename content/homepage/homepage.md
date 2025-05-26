@@ -41,36 +41,6 @@ tattooers:
       zamilujete!
     instagram: 'https://www.instagram.com/sarka.ink/'
     email: sarka.sskv@gmail.com
-  - photoIntro: /natalie-01.jpg
-    photoDetail: /natalie-02.jpg
-    portfolio:
-      - portforlioPhoto: /natalie/DSCF7979.jpeg
-      - portforlioPhoto: /natalie/DSCF7846.jpeg
-      - portforlioPhoto: /natalie/DSCF7724.jpeg
-      - portforlioPhoto: /natalie/DSCF7430.jpeg
-      - portforlioPhoto: /natalie/DSCF7420.jpeg
-      - portforlioPhoto: /natalie/DSCF7143.jpeg
-      - portforlioPhoto: /natalie/DSCF5836.jpeg
-      - portforlioPhoto: /natalie/DSCF4959.jpeg
-    name: Natálie
-    text: >
-      Představujeme Vám Natálii, která se k nám připojila v roce 2022, a jsme
-      opravdu rádi, že ji u nás máme! Natálie přináší do Ink House svou
-      kreativitu a vášeň pro elegantní floristické motivy a spirituální témata.
-
-
-      „Ahoj. Tetuji od roku 2017 a za tu dobu jsem si vyzkoušela mnoho různých
-      stylů. Nejvíce mi vyhovují tenké linky a barvy. Můj styl se po x letech
-      změnil a nyní upřednostňuji tetování krásných, elegantních floristických
-      motivů a občas k nim ráda přidám mladou slečnu nebo astrologické znamení.
-      Od doby, co mám ráda krystaly a spirituální témata, tak si moc užívám
-      tvořit tento druh umění.“
-
-
-      Pokud máte chuť na jemné, elegantní tetování s hlubokým duchovním
-      nádechem, Natálie je tu pro vás!
-    instagram: 'https://www.instagram.com/tallitatts/'
-    email: nathalieyessina@gmail.com
   - photoIntro: /jana-03.jpg
     photoDetail: /jana-02.jpg
     portfolio:
