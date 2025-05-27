@@ -2,6 +2,7 @@
 import { client } from '../../tina/__generated__/client'
 import { TinaMarkdown } from 'tinacms/dist/rich-text'
 import Layout from "../layouts/Layout.astro";
+import FileLink from '../components/FileLink.astro';
 const data = await client.queries.tattoo({ relativePath: 'tattoo.md' })
 ---
 
@@ -17,7 +18,20 @@ const data = await client.queries.tattoo({ relativePath: 'tattoo.md' })
                     </div>
                 )
             })}
+            <h2 class="paragraphTitle">Smluvní podmínky a ke stažení</h2>
+            <div class="fileLinks">
+                <FileLink href="https://assets.tina.io/1b66bada-78a4-4740-9a99-852404ca94f8/Dokumenty/tetovani_ac.pdf" text="Péče o tetování" />
+                <FileLink href="https://assets.tina.io/1b66bada-78a4-4740-9a99-852404ca94f8/Dokumenty/formular_pro_nezletile.pdf" text="Formulář pro nezletilé" />
+                <FileLink href="https://assets.tina.io/1b66bada-78a4-4740-9a99-852404ca94f8/Dokumenty/cestne_prohlaseni.pdf" text="Čestné prohlášení k vytvoření tetování" />
+            </div>
         </div>
         <img class="contentBg" src="/tattoo-bg.jpeg" />
     </section>
 </Layout>
+<style>
+    .fileLinks {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+</style>
