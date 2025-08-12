@@ -6,7 +6,7 @@ tattooers:
     portfolio:
       - {}
       - {}
-      - {}
+      - portforlioPhoto: /bara-t/IMG_8121 (1).jpg
       - portforlioPhoto: /bara-t/IMG_7748 (1).jpg
       - portforlioPhoto: /bara-t/IMG_5841 (1).jpg
       - portforlioPhoto: /bara-t/IMG_7545 (1).jpg
