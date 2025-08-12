@@ -1,6 +1,26 @@
 ---
 introText: ''
 tattooers:
+  - photoIntro: /bara.jpg
+    photoDetail: /bara2.jpg
+    portfolio:
+      - {}
+    name: Bára T.
+    text: >
+      Ahoj, já jsem Barča a k tetování jsem se dostala poměrně přirozeně.
+      Nejdříve jsem začala na umelých kůžích, pak na sobě, kamarádech,
+      kamarádech kamarádů. Zpočátku to byl spíše koníček, ale postupně se z něj
+      stala práce, která mě naplňuje. Předtím jsem pracovala v call centru, ale
+      rychle mi došlo, že tohle prostředí mě spíš vysává než rozvíjí. Věděla
+      jsem, že chci tvořit. Mám vystudovanou Střední uměleckoprůmyslovou školu a
+      malování mě bavilo od malička, předávat svůj styl a nápady lidem skrze
+      tetování, které je bude provázet celý život, mi dává velký smysl. Ráda
+      zachycuji příběhy, vzpomínky nebo pocity, které zkrátka mají zůstat pod
+      kůží. Každý motiv se snažím přizpůsobit tak, aby opravdu seděl tomu, kdo
+      si ho odnese. Nejraději dělám černobílé motivy z vlastních návrhů,
+      fineline nebo micro realism, ale vím, že jsem na začátku své cesty a těším
+      se, kam mě to celé ještě posune, jsem otevřena novým stylům, výzvám i
+      vašim nápadům.
   - photoIntro: /sarka-01.jpg
     photoDetail: /sarka-02.jpg
     portfolio:
