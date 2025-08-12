@@ -4,7 +4,7 @@ tattooers:
   - photoIntro: /bara.jpg
     photoDetail: /bara2.jpg
     portfolio:
-      - {}
+      - portforlioPhoto: /bara-t/IMG_9288 (3).jpg
       - portforlioPhoto: /bara-t/IMG_8155 (1).jpg
       - portforlioPhoto: /bara-t/IMG_8121 (1).jpg
       - portforlioPhoto: /bara-t/IMG_7748 (1).jpg
