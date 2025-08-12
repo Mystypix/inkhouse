@@ -26,8 +26,8 @@ tattooers:
       fineline nebo micro realism, ale vím, že jsem na začátku své cesty a těším
       se, kam mě to celé ještě posune, jsem otevřena novým stylům, výzvám i
       vašim nápadům.
-  - photoIntro: /sarka-01.jpg
-    photoDetail: /sarka-02.jpg
+  - photoIntro: /IMG_0771 (1).jpeg
+    photoDetail: /IMG_0828 (1).jpeg
     portfolio:
       - portforlioPhoto: /sarka/0D2C7FF0-237B-45E5-AE3E-CA6579CB0D2E_1_105_c.jpeg
       - portforlioPhoto: /sarka/239D28A9-0908-4857-A18A-DE97BE1616B9_1_105_c.jpeg
