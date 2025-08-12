@@ -275,5 +275,7 @@ tattooers:
       fineline nebo micro realism, ale vím, že jsem na začátku své cesty a těším
       se, kam mě to celé ještě posune, jsem otevřena novým stylům, výzvám i
       vašim nápadům.
+    instagram: 'https://www.instagram.com/vili.ink/'
+    email: bara.theissig@gmail.com
 ---
 
