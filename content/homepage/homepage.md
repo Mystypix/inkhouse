@@ -4,7 +4,7 @@ tattooers:
   - photoIntro: /bara.jpg
     photoDetail: /bara2.jpg
     portfolio:
-      - {}
+      - portforlioPhoto: /bara-t/IMG_7545 (1).jpg
     name: Bára T.
     text: >
       Ahoj, já jsem Barča a k tetování jsem se dostala poměrně přirozeně.
