@@ -4,6 +4,12 @@ tattooers:
   - photoIntro: /64833ca8-d370-41a8-95d7-fca675e82e9f.JPG
     photoDetail: /0bcfebb2-01d6-4d04-b68b-6f90354b58c9.JPG
     portfolio:
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - portforlioPhoto: /sarka-m/IMG_5738.jpg
       - portforlioPhoto: /sarka-m/IMG_5731.jpg
     name: Šárka M.
     text: >
