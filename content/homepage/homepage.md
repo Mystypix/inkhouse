@@ -1,7 +1,7 @@
 ---
 introText: ''
 tattooers:
-  - photoIntro: /IMG_0771 (1).jpeg
+  - photoIntro: /Mask group.jpg
     photoDetail: /IMG_0828 (1).jpeg
     portfolio:
       - portforlioPhoto: /sarka/0D2C7FF0-237B-45E5-AE3E-CA6579CB0D2E_1_105_c.jpeg
