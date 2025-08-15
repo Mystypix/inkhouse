@@ -6,7 +6,7 @@ tattooers:
     portfolio:
       - {}
       - {}
-      - {}
+      - portforlioPhoto: /sarka-m/IMG_5735.jpg
       - portforlioPhoto: /sarka-m/IMG_5736.jpg
       - portforlioPhoto: /sarka-m/IMG_5737.jpg
       - portforlioPhoto: /sarka-m/IMG_5738.jpg
