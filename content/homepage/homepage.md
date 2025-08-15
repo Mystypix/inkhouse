@@ -1,27 +1,6 @@
 ---
 introText: ''
 tattooers:
-  - photoIntro: /64833ca8-d370-41a8-95d7-fca675e82e9f.JPG
-    photoDetail: /0bcfebb2-01d6-4d04-b68b-6f90354b58c9.JPG
-    portfolio:
-      - portforlioPhoto: /sarka-m/IMG_5733.jpg
-      - portforlioPhoto: /sarka-m/IMG_5734.jpg
-      - portforlioPhoto: /sarka-m/IMG_5735.jpg
-      - portforlioPhoto: /sarka-m/IMG_5736.jpg
-      - portforlioPhoto: /sarka-m/IMG_5737.jpg
-      - portforlioPhoto: /sarka-m/IMG_5738.jpg
-      - portforlioPhoto: /sarka-m/IMG_5731.jpg
-    name: Šárka M.
-    text: >
-      Moje cesta k tetování vedla přes různé kreativní obory, kterým jsem se
-      věnovala jak profesně, tak i jako koníčkům, až jsem se v zimě 2024
-      odhodlala udělat oficiální krok vpřed k tomu, kam mě to dlouho táhlo
-      nejvíce – k tetování, a prošla si profesní rekvalifikací. Inspiraci čerpám
-      hlavně ze zvířecí pohádkové říše, z přírody, baví mě ale i motivy
-      inspirované temnějšími příběhy nebo folklorem. Stylově kombinuji většinou
-      linework s whipshadingem. Moc ráda vám pomůžu dostat váš kousek na kůži,
-      ať už jde o něco s osobnějším významem, nebo prostě tetování pro radost.
-    instagram: 'https://www.instagram.com/sarkameow.ink/'
   - photoIntro: /IMG_0771 (1).jpeg
     photoDetail: /IMG_0828 (1).jpeg
     portfolio:
@@ -298,5 +277,26 @@ tattooers:
       vašim nápadům.
     instagram: 'https://www.instagram.com/vili.ink/'
     email: bara.theissig@gmail.com
+  - photoIntro: /64833ca8-d370-41a8-95d7-fca675e82e9f.JPG
+    photoDetail: /0bcfebb2-01d6-4d04-b68b-6f90354b58c9.JPG
+    portfolio:
+      - portforlioPhoto: /sarka-m/IMG_5733.jpg
+      - portforlioPhoto: /sarka-m/IMG_5734.jpg
+      - portforlioPhoto: /sarka-m/IMG_5735.jpg
+      - portforlioPhoto: /sarka-m/IMG_5736.jpg
+      - portforlioPhoto: /sarka-m/IMG_5737.jpg
+      - portforlioPhoto: /sarka-m/IMG_5738.jpg
+      - portforlioPhoto: /sarka-m/IMG_5731.jpg
+    name: Šárka M.
+    text: >
+      Moje cesta k tetování vedla přes různé kreativní obory, kterým jsem se
+      věnovala jak profesně, tak i jako koníčkům, až jsem se v zimě 2024
+      odhodlala udělat oficiální krok vpřed k tomu, kam mě to dlouho táhlo
+      nejvíce – k tetování, a prošla si profesní rekvalifikací. Inspiraci čerpám
+      hlavně ze zvířecí pohádkové říše, z přírody, baví mě ale i motivy
+      inspirované temnějšími příběhy nebo folklorem. Stylově kombinuji většinou
+      linework s whipshadingem. Moc ráda vám pomůžu dostat váš kousek na kůži,
+      ať už jde o něco s osobnějším významem, nebo prostě tetování pro radost.
+    instagram: 'https://www.instagram.com/sarkameow.ink/'
 ---
 
