@@ -21,6 +21,7 @@ tattooers:
       inspirované temnějšími příběhy nebo folklorem. Stylově kombinuji většinou
       linework s whipshadingem. Moc ráda vám pomůžu dostat váš kousek na kůži,
       ať už jde o něco s osobnějším významem, nebo prostě tetování pro radost.
+    instagram: 'https://www.instagram.com/sarkameow.ink/'
   - photoIntro: /IMG_0771 (1).jpeg
     photoDetail: /IMG_0828 (1).jpeg
     portfolio:
