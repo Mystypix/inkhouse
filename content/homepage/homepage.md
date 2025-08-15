@@ -5,7 +5,7 @@ tattooers:
     photoDetail: /0bcfebb2-01d6-4d04-b68b-6f90354b58c9.JPG
     portfolio:
       - {}
-      - {}
+      - portforlioPhoto: /sarka-m/IMG_5734.jpg
       - portforlioPhoto: /sarka-m/IMG_5735.jpg
       - portforlioPhoto: /sarka-m/IMG_5736.jpg
       - portforlioPhoto: /sarka-m/IMG_5737.jpg
