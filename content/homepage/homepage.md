@@ -7,7 +7,7 @@ tattooers:
       - {}
       - {}
       - {}
-      - {}
+      - portforlioPhoto: /sarka-m/IMG_5736.jpg
       - portforlioPhoto: /sarka-m/IMG_5737.jpg
       - portforlioPhoto: /sarka-m/IMG_5738.jpg
       - portforlioPhoto: /sarka-m/IMG_5731.jpg
